@@ -1,0 +1,275 @@
+
+*** Running vivado
+    with args -log c_addsub_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_addsub_0.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Thu Apr  2 10:00:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source c_addsub_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 576.633 ; gain = 212.535
+Command: synth_design -top c_addsub_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10848
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1287.352 ; gain = 493.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'c_addsub_0' [c:/Users/jatin/adder_ip/adder_ip.gen/sources_1/ip/c_addsub_0/synth/c_addsub_0.vhd:70]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 4 - type: integer 
+	Parameter C_B_WIDTH bound to: 4 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 5 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 1 - type: integer 
+	Parameter C_B_TYPE bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 2 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 0000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 1 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 0 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_20' declared at 'c:/Users/jatin/adder_ip/adder_ip.gen/sources_1/ip/c_addsub_0/hdl/c_addsub_v12_0_vh_rfs.vhd:7261' bound to instance 'U0' of component 'c_addsub_v12_0_20' [c:/Users/jatin/adder_ip/adder_ip.gen/sources_1/ip/c_addsub_0/synth/c_addsub_0.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_0' (0#1) [c:/Users/jatin/adder_ip/adder_ip.gen/sources_1/ip/c_addsub_0/synth/c_addsub_0.vhd:70]
+WARNING: [Synth 8-7129] Port CE in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AINIT in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLR in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ASET in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module c_reg_fd_v12_0_10_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AINIT in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLR in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ASET in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module c_reg_fd_v12_0_10_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port c_in in module c_addsub_v12_0_20_lut6_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ce in module c_addsub_v12_0_20_lut6_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bypass in module c_addsub_v12_0_20_lut6_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sclr in module c_addsub_v12_0_20_lut6_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sset in module c_addsub_v12_0_20_lut6_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sinit in module c_addsub_v12_0_20_lut6_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port c_in in module c_addsub_v12_0_20_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_in in module c_addsub_v12_0_20_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a_signed in module c_addsub_v12_0_20_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_signed in module c_addsub_v12_0_20_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port C_IN in module c_addsub_v12_0_20_viv is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1412.246 ; gain = 618.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1412.246 ; gain = 618.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1412.246 ; gain = 618.449
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1412.246 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/jatin/adder_ip/adder_ip.gen/sources_1/ip/c_addsub_0/c_addsub_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/jatin/adder_ip/adder_ip.gen/sources_1/ip/c_addsub_0/c_addsub_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/jatin/adder_ip/adder_ip.runs/c_addsub_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/jatin/adder_ip/adder_ip.runs/c_addsub_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1417.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 1422.047 ; gain = 4.270
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 1422.047 ; gain = 628.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1422.047 ; gain = 628.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1422.047 ; gain = 628.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 1422.047 ; gain = 628.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port C_IN in module c_addsub_v12_0_20_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module c_addsub_v12_0_20_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BYPASS in module c_addsub_v12_0_20_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module c_addsub_v12_0_20_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module c_addsub_v12_0_20_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module c_addsub_v12_0_20_viv is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1446.637 ; gain = 652.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 1609.160 ; gain = 815.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 1609.160 ; gain = 815.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 1618.750 ; gain = 824.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     2|
+|2     |LUT3  |     4|
+|3     |MUXCY |     5|
+|4     |XORCY |     5|
+|5     |FDRE  |     6|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:01:00 . Memory (MB): peak = 1853.668 ; gain = 1050.070
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 1853.668 ; gain = 1059.871
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1853.668 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1858.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 2 instances
+
+Synth Design complete | Checksum: 89808316
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:37 . Memory (MB): peak = 1858.699 ; gain = 1265.777
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1858.699 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jatin/adder_ip/adder_ip.runs/c_addsub_0_synth_1/c_addsub_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP c_addsub_0, cache-ID = 446c1d7a22bdb103
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1858.699 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jatin/adder_ip/adder_ip.runs/c_addsub_0_synth_1/c_addsub_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file c_addsub_0_utilization_synth.rpt -pb c_addsub_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  2 10:02:59 2026...

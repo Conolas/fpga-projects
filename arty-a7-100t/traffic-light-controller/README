@@ -1,0 +1,24 @@
+# Traffic Light Controller
+
+## Overview
+Finite State Machine (FSM) based traffic light controller.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+Implements a traffic signal system with defined states and transitions for red, yellow, and green lights.
+
+## Inputs
+- Clock
+- Reset
+
+## Outputs
+- LEDs representing traffic signals
+
+## Notes
+Demonstrates FSM design and timing-based state transitions.

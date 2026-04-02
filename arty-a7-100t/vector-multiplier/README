@@ -1,0 +1,24 @@
+# Vector Multiplier
+
+## Overview
+Performs element-wise multiplication between two vectors.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+Each element of one vector is multiplied with the corresponding element of another vector to produce an output vector.
+
+## Inputs
+- Vector A
+- Vector B
+
+## Outputs
+- Resulting vector
+
+## Notes
+Focuses on handling multiple data elements and parallel operations in Verilog.

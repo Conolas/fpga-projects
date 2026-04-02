@@ -1,0 +1,1 @@
+c_counter_binary_0.vhd,vhdl,xil_defaultlib,../../../../counter_vv.gen/sources_1/ip/c_counter_binary_0/sim/c_counter_binary_0.vhd,incdir="../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef"

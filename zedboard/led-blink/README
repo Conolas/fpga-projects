@@ -1,0 +1,23 @@
+# LED Blink (ZedBoard)
+
+## Overview
+Basic LED blinking project for ZedBoard to verify board functionality.
+
+## Board
+ZedBoard (Zynq-7000)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+Uses a clock divider to toggle an LED at a visible rate.
+
+## Inputs
+- Clock
+
+## Outputs
+- LED
+
+## Notes
+Serves as a basic test project for Zynq-based FPGA boards.

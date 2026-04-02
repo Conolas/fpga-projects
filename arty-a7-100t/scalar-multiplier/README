@@ -1,0 +1,24 @@
+# Scalar Multiplier
+
+## Overview
+Performs multiplication between two scalar values.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+Takes two input operands and produces their multiplication result.
+
+## Inputs
+- Operand A
+- Operand B
+
+## Outputs
+- Result
+
+## Notes
+Demonstrates basic arithmetic design using combinational logic.

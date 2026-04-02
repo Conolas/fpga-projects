@@ -1,0 +1,28 @@
+# Timed Multiplication Display
+
+## Overview
+Displays the square of a number for an initial duration, followed by its multiplication table at regular intervals.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+The design takes an input number from DIP switches. 
+
+- For the first 5 seconds, it displays the square of the number.
+- After that, it sequentially displays the multiplication table of the number, updating every second.
+
+## Inputs
+- DIP switches (input number)
+- Clock
+- Reset
+
+## Outputs
+- LEDs (display output)
+
+## Notes
+This design combines timing control, sequential logic, and arithmetic operations, and can be modeled using an FSM.

@@ -1,0 +1,24 @@
+# Adder
+
+## Overview
+Implements addition between two input operands.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+This design performs binary addition of two inputs and produces the result as output.
+
+## Inputs
+- Operand A
+- Operand B
+
+## Outputs
+- Sum
+
+## Notes
+Demonstrates basic combinational logic and arithmetic design using Verilog.

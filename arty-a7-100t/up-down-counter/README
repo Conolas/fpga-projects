@@ -1,0 +1,25 @@
+# Up-Down Counter
+
+## Overview
+Implements a counter that increments or decrements based on a control input.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Verilog
+- Xilinx Vivado
+
+## Description
+The counter increases or decreases its value depending on the control signal. The output is displayed using LEDs.
+
+## Inputs
+- Clock
+- Reset
+- Direction control (Up/Down)
+
+## Outputs
+- LED output (counter value)
+
+## Notes
+Demonstrates basic sequential logic and control-based state changes.

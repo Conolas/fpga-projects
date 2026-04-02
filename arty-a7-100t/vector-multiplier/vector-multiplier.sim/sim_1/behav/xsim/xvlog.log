@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jatin/vector_mult/vector_mult.srcs/sources_1/new/vec_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vec_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jatin/vector_mult/vector_mult.srcs/sim_1/new/vec_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vec_tb

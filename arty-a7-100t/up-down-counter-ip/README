@@ -1,0 +1,24 @@
+# Up-Down Counter (IP Catalog)
+
+## Overview
+Implements an up-down counter using Vivado IP Integrator.
+
+## Board
+Arty A7 (Artix-7)
+
+## Tools
+- Xilinx Vivado (IP Integrator)
+
+## Description
+This project recreates the up-down counter using IP blocks instead of writing the full design in Verilog.
+
+## Inputs
+- Clock
+- Reset
+- Direction control
+
+## Outputs
+- LED output (counter value)
+
+## Notes
+Demonstrates usage of Vivado IP catalog and block design approach.
